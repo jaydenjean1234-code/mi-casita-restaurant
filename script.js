@@ -6,7 +6,7 @@ const menuData = [
         category: 'mains',
         price: 14.99,
         description: 'Crispy fried pork belly served with twice-fried plantain slices',
-        image: 'https://images.unsplash.com/photo-1561758033-d89a0ad1c3a3?w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1606787620884-c87c61cf2c21?w=400&h=400&fit=crop'
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const menuData = [
         category: 'mains',
         price: 12.99,
         description: 'Traditional Dominican fried salami sandwich with cheese and onions',
-        image: 'https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop'
     },
     {
         id: 3,
@@ -30,7 +30,7 @@ const menuData = [
         category: 'mains',
         price: 18.99,
         description: 'Shrimp sautéed in garlic sauce served with rice and beans',
-        image: 'https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1627840042255-ef305584b51f?w=400&h=400&fit=crop'
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const menuData = [
         category: 'appetizers',
         price: 8.99,
         description: 'Crispy Dominican pastries filled with cheese or meat (3 pieces)',
-        image: 'https://images.unsplash.com/photo-1559339352-11d8b1d44905?w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1599599810694-c3ea39b52b5d?w=400&h=400&fit=crop'
     },
     {
         id: 6,
@@ -70,7 +70,7 @@ const menuData = [
         category: 'beverages',
         price: 6.99,
         description: 'Refreshing tropical drink with coconut cream and pineapple',
-        image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1556766336-a71a3fd84000?w=400&h=400&fit=crop'
     },
     {
         id: 10,
@@ -78,7 +78,7 @@ const menuData = [
         category: 'beverages',
         price: 7.99,
         description: 'Fresh mint, lime, sugar, and sparkling water',
-        image: 'https://images.unsplash.com/photo-1557895476-75d9ad93f6a3?w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1613478223032-40cbd8fdf541?w=400&h=400&fit=crop'
     },
     {
         id: 11,
@@ -94,7 +94,7 @@ const menuData = [
         category: 'desserts',
         price: 5.99,
         description: 'Sponge cake soaked in three types of milk, topped with whipped cream',
-        image: 'https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=400&fit=crop'
     },
     {
         id: 13,
