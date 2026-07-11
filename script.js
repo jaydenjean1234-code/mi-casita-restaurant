@@ -6,7 +6,7 @@ const menuData = [
         category: 'mains',
         price: 14.99,
         description: 'Crispy fried pork belly served with twice-fried plantain slices',
-        image: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1625953452480-57f1e27e2b9d?w=400&h=400&fit=crop'
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const menuData = [
         category: 'mains',
         price: 12.99,
         description: 'Traditional Dominican fried salami sandwich with cheese and onions',
-        image: 'https://images.pexels.com/photos/3962286/pexels-photo-3962286.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1562547256-c7b3a2f62e99?w=400&h=400&fit=crop'
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ const menuData = [
         category: 'mains',
         price: 16.99,
         description: 'Delicious layered dish with yuca, meat, cheese, and avocado',
-        image: 'https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop'
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ const menuData = [
         category: 'mains',
         price: 18.99,
         description: 'Shrimp sautéed in garlic sauce served with rice and beans',
-        image: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1628840042255-ef305584b51f?w=400&h=400&fit=crop'
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const menuData = [
         category: 'appetizers',
         price: 8.99,
         description: 'Crispy Dominican pastries filled with cheese or meat (3 pieces)',
-        image: 'https://images.pexels.com/photos/5737369/pexels-photo-5737369.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1599599810694-c3ea39b52b5d?w=400&h=400&fit=crop'
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const menuData = [
         category: 'appetizers',
         price: 10.99,
         description: 'Mashed plantains with garlic and oil, served with your choice of protein',
-        image: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1585521537836-e5b8b270a627?w=400&h=400&fit=crop'
     },
     {
         id: 7,
@@ -54,7 +54,7 @@ const menuData = [
         category: 'appetizers',
         price: 7.99,
         description: 'Fresh guacamole made daily, served with crispy tortilla chips',
-        image: 'https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1535992636343-69d996e41065?w=400&h=400&fit=crop'
     },
     {
         id: 8,
@@ -62,7 +62,7 @@ const menuData = [
         category: 'appetizers',
         price: 11.99,
         description: 'Fresh fish marinated in citrus juice with onions and cilantro',
-        image: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1559050241-16e97e49c3d7?w=400&h=400&fit=crop'
     },
     {
         id: 9,
@@ -70,7 +70,7 @@ const menuData = [
         category: 'beverages',
         price: 6.99,
         description: 'Refreshing tropical drink with coconut cream and pineapple',
-        image: 'https://images.pexels.com/photos/3407817/pexels-photo-3407817.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1556766336-a71a3fd84000?w=400&h=400&fit=crop'
     },
     {
         id: 10,
@@ -78,7 +78,7 @@ const menuData = [
         category: 'beverages',
         price: 7.99,
         description: 'Fresh mint, lime, sugar, and sparkling water',
-        image: 'https://images.pexels.com/photos/3407819/pexels-photo-3407819.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1613478223032-40cbd8fdf541?w=400&h=400&fit=crop'
     },
     {
         id: 11,
@@ -86,7 +86,7 @@ const menuData = [
         category: 'beverages',
         price: 3.99,
         description: 'Traditional sweet rice milk drink with cinnamon and vanilla',
-        image: 'https://images.pexels.com/photos/1998920/pexels-photo-1998920.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1584261323614-fd3216b3dbb6?w=400&h=400&fit=crop'
     },
     {
         id: 12,
@@ -94,7 +94,7 @@ const menuData = [
         category: 'desserts',
         price: 5.99,
         description: 'Sponge cake soaked in three types of milk, topped with whipped cream',
-        image: 'https://images.pexels.com/photos/3991894/pexels-photo-3991894.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&h=400&fit=crop'
     },
     {
         id: 13,
@@ -102,7 +102,7 @@ const menuData = [
         category: 'desserts',
         price: 4.99,
         description: 'Smooth caramel custard dessert',
-        image: 'https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1488477181946-85a2893f3e9f?w=400&h=400&fit=crop'
     },
     {
         id: 14,
@@ -110,7 +110,7 @@ const menuData = [
         category: 'desserts',
         price: 5.99,
         description: 'Fried dough pastries dusted with cinnamon sugar (4 pieces)',
-        image: 'https://images.pexels.com/photos/1488317/pexels-photo-1488317.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=400&fit=crop'
     }
 ];
 
@@ -150,7 +150,7 @@ function renderMenu(category) {
         if (category === 'all' || item.category === category) {
             const itemHTML = `
                 <div class="menu-item" data-category="${item.category}">
-                    <img src="${item.image}" alt="${item.name}" class="menu-item-image" onerror="this.src='https://via.placeholder.com/400?text=${item.name}'">
+                    <img src="${item.image}" alt="${item.name}" class="menu-item-image">
                     <div class="menu-item-content">
                         <div class="menu-item-name">${item.name}</div>
                         <div class="menu-item-description">${item.description}</div>
