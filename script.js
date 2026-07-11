@@ -6,7 +6,7 @@ const menuData = [
         category: 'mains',
         price: 14.99,
         description: 'Crispy fried pork belly served with twice-fried plantain slices',
-        image: 'https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
     },
     {
         id: 2,
@@ -46,7 +46,7 @@ const menuData = [
         category: 'appetizers',
         price: 10.99,
         description: 'Mashed plantains with garlic and oil, served with your choice of protein',
-        image: 'https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
     },
     {
         id: 7,
@@ -54,7 +54,7 @@ const menuData = [
         category: 'appetizers',
         price: 7.99,
         description: 'Fresh guacamole made daily, served with crispy tortilla chips',
-        image: 'https://images.pexels.com/photos/3407817/pexels-photo-3407817.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.pexels.com/photos/1410235/pexels-photo-1410235.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
     },
     {
         id: 8,
@@ -62,7 +62,7 @@ const menuData = [
         category: 'appetizers',
         price: 11.99,
         description: 'Fresh fish marinated in citrus juice with onions and cilantro',
-        image: 'https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
     },
     {
         id: 9,
@@ -86,7 +86,7 @@ const menuData = [
         category: 'beverages',
         price: 3.99,
         description: 'Traditional sweet rice milk drink with cinnamon and vanilla',
-        image: 'https://images.pexels.com/photos/3407811/pexels-photo-3407811.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
+        image: 'https://images.pexels.com/photos/1998920/pexels-photo-1998920.jpeg?auto=compress&cs=tinysrgb&w=400&h=400&fit=crop'
     },
     {
         id: 12,
