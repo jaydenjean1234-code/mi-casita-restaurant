@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Casita Restaurant - Authentic Latin Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-utensils"></i>
+                <h1>Mi Casita</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#order" class="nav-link btn-order">Order Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Mi Casita</h2>
+            <p>Authentic Latin Cuisine in Milford, Delaware</p>
+            <button class="btn btn-primary" onclick="scrollTo('order')">Order Online</button>
+            <button class="btn btn-secondary" onclick="scrollTo('menu')">View Menu</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Mi Casita is a family-owned restaurant dedicated to serving authentic Latin cuisine with the finest ingredients and exceptional service. With over a decade of experience, we've become a beloved spot in the Milford community.</p>
+                    <ul class="features">
+                        <li><i class="fas fa-check-circle"></i> Family Owned & Operated</li>
+                        <li><i class="fas fa-check-circle"></i> Fresh Ingredients Daily</li>
+                        <li><i class="fas fa-check-circle"></i> Authentic Recipes</li>
+                        <li><i class="fas fa-check-circle"></i> Fast & Friendly Service</li>
+                    </ul>
+                </div>
+                <div class="about-info">
+                    <div class="info-box">
+                        <h3>Location</h3>
+                        <p>568 Milford Harrington Hwy<br>Milford, DE 19963</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Hours</h3>
+                        <p>Mon - Thu: 11 AM - 9 PM<br>Fri - Sat: 11 AM - 10 PM<br>Sun: 12 PM - 9 PM</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Contact</h3>
+                        <p><i class="fas fa-phone"></i> (302) 632-2833<br><i class="fas fa-envelope"></i> info@micasita.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-filters">
+                <button class="filter-btn active" onclick="filterMenu('all')">All</button>
+                <button class="filter-btn" onclick="filterMenu('appetizers')">Appetizers</button>
+                <button class="filter-btn" onclick="filterMenu('mains')">Main Courses</button>
+                <button class="filter-btn" onclick="filterMenu('beverages')">Beverages</button>
+                <button class="filter-btn" onclick="filterMenu('desserts')">Desserts</button>
+            </div>
+            <div class="menu-items" id="menuItems">
+                <!-- Menu items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1561758033-d89a0ad1c3a3?w=400&h=400&fit=crop" alt="Chicharron Con Tostones">
+                    <div class="gallery-overlay">
+                        <p>Chicharron Con Tostones</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=400&h=400&fit=crop" alt="Chimi Sandwich">
+                    <div class="gallery-overlay">
+                        <p>Chimi Sandwich</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop" alt="Yaroa">
+                    <div class="gallery-overlay">
+                        <p>Yaroa</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400&h=400&fit=crop" alt="Fresh Seafood">
+                    <div class="gallery-overlay">
+                        <p>Fresh Seafood</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1576867757603-b1666dba86e8?w=400&h=400&fit=crop" alt="Traditional Dishes">
+                    <div class="gallery-overlay">
+                        <p>Traditional Dishes</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=400&fit=crop" alt="Tres Leches Cake">
+                    <div class="gallery-overlay">
+                        <p>Tres Leches Cake</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Customer Reviews</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Sarah - Local Guide</h4>
+                            <span class="review-date">2 months ago</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p>"I've had this food truck on my foodie bucket list for a while. I finally tried it today and it did not disappoint! Food was seasoned just right and delicious! Pina colada was a nice treat that was tasty. Friendly service and they even had..."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Zach Kuhns</h4>
+                            <span class="review-date">2 months ago</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p>"Service was great and the food was amazing. Will definitely be coming back!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Trish - Local Guide</h4>
+                            <span class="review-date">2 months ago</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p>"It was our 1st time there and it won't be our last! Amazing food and 5 star customer service! Thank you for the great meals and tasty dessert (tres leches) for mother's day, today. Best tasting food in Kent County!"</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="scrollTo('contact')">Leave a Review</button>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="order">
+        <div class="container">
+            <h2>Place Your Order</h2>
+            <div class="order-content">
+                <div class="order-form">
+                    <form id="orderForm" onsubmit="submitOrder(event)">
+                        <h3>Order Details</h3>
+                        
+                        <div class="form-group">
+                            <label>Select Items</label>
+                            <div class="cart" id="cart">
+                                <p style="color: #999;">Add items from the menu above</p>
+                            </div>
+                            <input type="hidden" id="cartItems" name="cartItems" value="[]">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Order Type</label>
+                            <select name="orderType" required>
+                                <option value="">Select...</option>
+                                <option value="dine-in">Dine In</option>
+                                <option value="pickup">Curbside Pickup</option>
+                                <option value="delivery">Delivery</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="tel" name="phone" required>
+                        </div>
+
+                        <div class="form-group" id="deliveryAddressGroup" style="display: none;">
+                            <label>Delivery Address</label>
+                            <input type="text" name="address" placeholder="Street address">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Special Instructions</label>
+                            <textarea name="instructions" rows="3" placeholder="Any special requests?"></textarea>
+                        </div>
+
+                        <div class="order-summary">
+                            <h4>Order Summary</h4>
+                            <div class="summary-item">
+                                <span>Subtotal:</span>
+                                <span id="subtotal">$0.00</span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Tax (6%):</span>
+                                <span id="tax">$0.00</span>
+                            </div>
+                            <div class="summary-item total">
+                                <span>Total:</span>
+                                <span id="total">$0.00</span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">Place Order</button>
+                    </form>
+                </div>
+
+                <div class="order-info">
+                    <h3>Delivery & Pickup</h3>
+                    <p><strong>Delivery Hours:</strong> 11 AM - 9 PM</p>
+                    <p><strong>Estimated Delivery Time:</strong> 30-45 minutes</p>
+                    <p><strong>Delivery Fee:</strong> $3.00</p>
+                    <hr>
+                    <h3>Location</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 568 Milford Harrington Hwy<br>Milford, DE 19963</p>
+                    <hr>
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-phone"></i> (302) 632-2833</p>
+                    <p><i class="fas fa-envelope"></i> orders@micasita.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <form id="contactForm" onsubmit="submitContact(event)">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <input type="text" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3097.2345678901235!2d-75.5287!3d38.9137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7a2b8b8b8b8b9%3A0x8b8b8b8b8b8b8b8b!2s568%20Milford%20Harrington%20Hwy%2C%20Milford%2C%20DE%2019963!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Mi Casita</h4>
+                    <p>Authentic Latin Cuisine</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Hours</h4>
+                    <p>Mon - Thu: 11 AM - 9 PM<br>
+                    Fri - Sat: 11 AM - 10 PM<br>
+                    Sun: 12 PM - 9 PM</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>(302) 632-2833<br>
+                    info@micasita.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#order">Order</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mi Casita Restaurant. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Order Confirmation -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Order Placed Successfully!</h2>
+            <p id="successMessage"></p>
+            <button class="btn btn-primary" onclick="closeModal()">Continue Shopping</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
